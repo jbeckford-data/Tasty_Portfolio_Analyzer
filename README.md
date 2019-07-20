@@ -1,8 +1,10 @@
 # Portfolio_Analyzer
 Alternative Options Analyzer for current portfolio from tastytrade.
 
+# Intended to be used from CSV export positions on tastytrade.  See columns below as what is called from CSV.
 Profit/Loss graph for unlimited legs of positions from CSV export of tastytrade portfolio.
 
-Columns: [Account	Symbol	Type	Quantity	Exp Date	DTE	Strike Price	Call/Put	Delta	Î² Delta	Theta	P/L Day	P/L Open	Ext	Cost	NetLiq	Trade Price]
+Columns: ['Symbol','Quantity','Strike Price','Call/Put','Cost','NetLiq']
 
-Utlizing yahoo pricing (yesterday's close) from yahoo_fin repo and mibian options pricing.
+
+Utlizing yahoo pricing (yesterday's close) from yahoo_fin and mibian options pricing.
